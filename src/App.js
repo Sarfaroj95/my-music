@@ -46,12 +46,18 @@ function App() {
 
   return (
     <div className="App">
-      <Player
-        currentSongIndex={currentSongIndex}
-        setCurrentSongIndex={setCurrentSongIndex}
-        nextSongIndex={nextSongIndex}
-        songs={songs}
-      />
+      <div className="main-div">
+        <Player
+          currentSongIndex={currentSongIndex}
+          setCurrentSongIndex={setCurrentSongIndex}
+          nextSongIndex={nextSongIndex}
+          songs={songs}
+        />
+      </div>
+      <div className="sec-div">
+        <marquee className="story">কখনো যদি এমন হয়- তুমি আর আমি একসাথে আমাদের সব স্বপ্ন পূরণ করবো কখনো যদি এমন হয়- আমি কিছু না বলতেই তুমি সব শুনে নেবে আমাদের চলার পথও এক হয়ে যাবে তখন আমার হাতের মুঠোয় তোমার উষ্ণ স্পর্শ থাকবে সেদিন কেন আজ মনে হয় তুমিহিনা অসম্পূর্ণ এ পৃথিবী? কেন আজ প্রথম প্রেমের শিহরণ তুমিবিনা অসম্পৃক্ত?…</marquee>
+      </div>
+
     </div>
   );
 }
