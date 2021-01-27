@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import Pictures from './components/Player/Pictures';
 import Player from './components/Player/Player';
 
 function App() {
@@ -46,6 +47,7 @@ function App() {
 
   return (
     <div className="App">
+
       <div className="main-div">
         <Player
           currentSongIndex={currentSongIndex}
@@ -55,8 +57,16 @@ function App() {
         />
       </div>
       <div className="sec-div">
-        <marquee className="story">কখনো যদি এমন হয়- তুমি আর আমি একসাথে আমাদের সব স্বপ্ন পূরণ করবো কখনো যদি এমন হয়- আমি কিছু না বলতেই তুমি সব শুনে নেবে আমাদের চলার পথও এক হয়ে যাবে তখন আমার হাতের মুঠোয় তোমার উষ্ণ স্পর্শ থাকবে সেদিন কেন আজ মনে হয় তুমিহিনা অসম্পূর্ণ এ পৃথিবী? কেন আজ প্রথম প্রেমের শিহরণ তুমিবিনা অসম্পৃক্ত?…</marquee>
+        <marquee className="story">আকাশের নীল পরি মেলেছে দুটি ডানা মনের মাঝে বাসা বাঁধতে নেইকো কোনো মানা অচিন দেশে নিয়ে যাবো, বাঁধবো সুখের ঘর মনের মাঝে থাকবে চিরকাল, হবেনা কখনো পর... আর একটা কথা। কাওকে ভালো করে না চিনে খারাপ মন্তব্য করবে না।</marquee>
       </div>
+
+      <div className="Pic">
+        <Pictures />
+      </div>
+      <div >
+        <p className="msg">Love is part of life</p>
+      </div>
+
 
     </div>
   );
