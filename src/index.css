@@ -13,7 +13,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 95vh;
+    min-height: 100vh;
 }
 .sec-div {
     background-color: #071425;
@@ -30,13 +30,22 @@ body {
 }
 .c-player {
     display: block;
-    background-color: #041055;
+    /* background-color: #041055; */
     display: block;
     margin: 0px auto;
-    padding: 50px;
+    padding: 30px;
     width: 280px;
-    border-radius: 16px;
-    box-shadow: inset -6px -6px 12px rgba(1, 14, 41, 0.8), inset 6px 6px 12px rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+    box-shadow: -7px -7px 20px 0px #fff9,
+                -4px -4px 5px 0px #fff9,
+                7px 7px 20px 0px #0002,
+                4px 4px  5px 0px #0001,
+                inset 0px 0px 0px 0px #fff9,
+                inset 0px 0px 0px 0px #0001,
+                inset 0px 0px 0px 0px #fff9,
+                inset 0px 0px 0px 0px #0001;
+  transition: box-shadow 0.6s cubic-bezier(0.79, 0.21, 0.06, 0.81);
+    /* box-shadow: inset -6px -6px 12px rgba(1, 14, 41, 0.8), inset 6px 6px 12px rgba(255, 255, 255, 0.4); */
 }
 
 .c-player > h4 {
@@ -70,9 +79,9 @@ body {
     display: block;
     margin: 20px auto;
     width: 100%;
-    max-width: 150px;
-    border-radius: 50%;
-    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.8), -6px -6px 12px rgba(255, 255, 255, 0.4);
+    max-width: 210px;
+    border-radius: 5%;
+    box-shadow: 6px 6px 12px rgba(126, 125, 125, 0.8), -6px -6px 12px rgba(255, 255, 255, 0.4);
 }
 
 .c-player--details .details-img:after {
@@ -83,8 +92,8 @@ body {
     left: -15px;
     right: -15px;
     bottom: -15px;
-    border-radius: 50%;
-    border: 1px dashed rgb(255, 102, 0);
+    border-radius: 5%;
+    /* border: 1px dashed rgb(255, 102, 0); */
 }
 
 .c-player--details .details-title {
@@ -97,9 +106,9 @@ body {
 }
 
 .c-player--details .details-artist {
-    color: #AAA;
-    font-size: 20px;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.8), -2px -2px 4px rgba(255,255,255,0.4);
+    color: rgb(141, 139, 139);
+    font-size: 16px;
+    text-shadow: 2px 2px 4px rgba(187, 186, 186, 0.8), -2px -2px 4px rgba(255,255,255,0.4);
     text-align: center;
     margin-bottom: 20px;
 }
@@ -114,14 +123,14 @@ body {
 .c-player--controls .play-btn {
     display: flex;
     margin: 0 30px;
-    padding: 20px;
-    border-radius: 50%;
-    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8), -4px -4px 10px rgba(255, 255, 255, 0.4), inset -4px -4px 10px rgba(0, 0, 0, 0.4), inset 4px 4px 10px rgba(255, 255, 255, 0.4);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgba(95, 94, 94, 0.8), -4px -4px 10px rgba(255, 255, 255, 0.4), inset -4px -4px 10px rgba(0, 0, 0, 0.4), inset 4px 4px 10px rgba(255, 255, 255, 0.4);
     border: none;
     outline: none;
-    background-color: #FFCE00;
+    background-color: #7a7a79;
     color: #FFF;
-    font-size: 24px;
+    font-size: 20px;
     cursor: pointer;
 }
 

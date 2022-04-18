@@ -5,29 +5,29 @@ import Player from './components/Player/Player';
 function App() {
   const [songs] = useState([
     {
-      title: "Tui Chara",
-      artist: "Sad singer",
-      img_src: "./images/tui-chara.jpg",
-      src: "./music/Tui-chara.mp3"
+      title: "Ghar Se The Chale",
+      artist: "Arijit Singh",
+      img_src: "./images/arin.jpeg",
+      src: "./music/gharse.mp3"
     },
     {
       title: "Khairiyat Pucho",
-      artist: "Arijit",
-      img_src: "./images/khairiyat.jpg",
+      artist: "Arijit Singh",
+      img_src: "./images/jaidul.jpeg",
       src: "./music/kheriyat.mp3"
     },
-    {
-      title: "Humnava Mere",
-      artist: "Jubin Nautiyal",
-      img_src: "./images/humnava.jpg",
-      src: "./music/Humnava.mp3"
-    },
-    {
-      title: "Khusi Ke Pal",
-      artist: "Shirley Setia",
-      img_src: "./images/khusiki-pal.jpg",
-      src: "./music/khusikipal.mp3"
-    }
+    // {
+    //   title: "Humnava Mere",
+    //   artist: "Jubin Nautiyal",
+    //   img_src: "./images/humnava.jpg",
+    //   src: "./music/Humnava.mp3"
+    // },
+    // {
+    //   title: "Khusi Ke Pal",
+    //   artist: "Shirley Setia",
+    //   img_src: "./images/khusiki-pal.jpg",
+    //   src: "./music/khusikipal.mp3"
+    // }
 
 
   ]);
@@ -56,16 +56,16 @@ function App() {
           songs={songs}
         />
       </div>
-      <div className="sec-div">
+      {/* <div className="sec-div">
         <marquee className="story">আকাশের নীল পরি মেলেছে দুটি ডানা মনের মাঝে বাসা বাঁধতে নেইকো কোনো মানা অচিন দেশে নিয়ে যাবো, বাঁধবো সুখের ঘর মনের মাঝে থাকবে চিরকাল, হবেনা কখনো পর... আর একটা কথা। কাওকে ভালো করে না চিনে খারাপ মন্তব্য করবে না।</marquee>
       </div>
 
       <div className="Pic">
         <Pictures />
-      </div>
-      <div >
+      </div> */}
+      {/* <div >
         <p className="msg">Love is part of life</p>
-      </div>
+      </div> */}
 
 
     </div>
